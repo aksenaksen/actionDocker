@@ -19,5 +19,11 @@ public class TestController {
     }
 
 
+    @GetMapping("/tmp")
+    public String tmp(){
+        return "fucking successed";
+    }
+
+
 
 }
