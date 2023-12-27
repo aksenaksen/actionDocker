@@ -24,6 +24,11 @@ public class TestController {
         return "fucking successed";
     }
 
+    @GetMapping("success")
+    public String tmp2(){
+        return "success";
+    }
+
 
 
 }
